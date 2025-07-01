@@ -24,6 +24,9 @@
 	margin : 10px 0px 15px 0px;
 }
 
+#submit {
+	border: 2px solid black;
+}
 #existing {
 	margin-top: 20px;
 	display: none;
