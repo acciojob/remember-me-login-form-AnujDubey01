@@ -26,6 +26,7 @@
 
 #submit {
 	border: 2px solid black;
+	input#submit[value='Submit'];
 }
 #existing {
 	margin-top: 20px;
