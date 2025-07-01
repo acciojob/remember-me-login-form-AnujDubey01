@@ -1,5 +1,5 @@
 //your JS code here. If required.
-
+  const form = document.getElementById("loginForm");
 let user  = document.getElementById("username");
 let psswrd = document.getElementById("password");
 let  check = document.getElementById("checkbox");
@@ -14,7 +14,7 @@ const existingBtn = document.getElementById("existing");
       existingBtn.style.display = "inline-block";
     }
 
-btn.addEventListener("click", function() {
+ form.addEventListener("submit", function(event) {
 	event.preventDefault();
 	
 		if(!check.checked)	{
