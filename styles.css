@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+.div {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 350px;
+	padding: 15px;
+	border: 2px solid black;
+}
+
+.check {
+	display: flex;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+
+#username {
+	padding: 10px 0px 10px 0px;
+	margin : 10px 0px 15px 0px;
+}
+
+#password {
+	padding: 10px 0px 10px 0px;
+	margin : 10px 0px 15px 0px;
+}
+
+#existing {
+	margin-top: 20px;
+	display: none;
+}
